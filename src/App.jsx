@@ -4,6 +4,7 @@ import Highlights from "./components/Highlights";
 import Model from "./components/Model";
 import * as Sentry from "@sentry/react";
 import Features from "./components/Features";
+import HowItWorks from "./components/HowItWorks";
 // import Sarvinoz from "./components/Sarvinoz";
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <Highlights />
       <Model />
       <Features />
+      <HowItWorks />
       {/* <Sarvinoz /> */}
     </main>
   );
